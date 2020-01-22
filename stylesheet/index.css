@@ -1,0 +1,55 @@
+@import './reset.css';
+
+h1 {
+    text-align: center;
+    margin-top: 230px;
+    font-size: 5em;
+}
+
+
+h1 span:first-child {
+    color: #4285f4;
+}
+
+h1 span:nth-child(2) {
+    color: #ea4335;
+}
+
+h1 span:nth-child(3) {
+    color: #fbbc05;
+}
+
+h1 span:nth-child(4) {
+    color: #4285f4;
+}
+
+h1 span:nth-child(5) {
+    color: #34a853;
+}
+
+h1 span:last-child {
+    color: #ea4335;
+}
+
+div.search-bar {
+    width: 40%;
+    margin: auto;
+}
+
+input.search-bar {
+    width: 100%;
+    margin-top: 0.5em;
+    height: 1.5em;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+    div.search-bar {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+}
